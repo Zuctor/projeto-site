@@ -10,16 +10,18 @@ body, html
 {
     height: 100vh;
     width: 100vw;
+    background-image: linear-gradient(to top right, white, blue);
 }
 section
 {
     top: 25vh;
     position: relative;
     margin: auto;
-    background-color: lightgray;
-    width: 75vw;
+    background-color: white;
+    width: 350px;
     box-sizing: border-box;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
 }
 div#background
 {
@@ -33,4 +35,51 @@ h1
     text-align: center;
     padding: 20px;
     font-size: 30px;
+}
+p#h1
+{
+    padding: 10px;
+}
+p#email, p#senha
+{
+    padding: 5px;
+    background-image: linear-gradient(to right, black, blue);
+    color: white;
+    margin: 0px 0px 5px 10px;
+    width: 330px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 5px;
+
+}
+input#isenha, input#iemail
+{
+    padding-top: 4px;
+    font-size: 20px;
+    width: 317px;
+    display: inline-block;
+    border-radius: 5px;
+}
+p#bot
+{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+p#bot > input
+{
+    margin-bottom: 3px;
+    display: inline-block;
+    padding: 10px;
+    width: 330px;
+    border-radius: 10px;
+}
+input.entrar
+{
+    background-image: linear-gradient(to right, black, blue);
+    color: white;
+}
+input.esqueci
+{
+    color: blue;
 }
